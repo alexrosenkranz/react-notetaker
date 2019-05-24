@@ -1,0 +1,25 @@
+{
+  "name": "react-notetaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexrosenkranz/react-notetaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexrosenkranz/react-notetaker/issues"
+  },
+  "homepage": "https://github.com/alexrosenkranz/react-notetaker#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1"
+  }
+}
