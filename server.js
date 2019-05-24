@@ -11,6 +11,11 @@ app.use(express.json());
 // this is unnecessary, just a middleware logger so we can keep track of our requests
 app.use(logger('dev'));
 
+// if app is in production, then serve up client/build as static in express
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
+
 // turn on routes
 const routes = require('./routes');
 app.use(routes);
